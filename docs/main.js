@@ -4,7 +4,7 @@ const hoursContainer = document.querySelector('#hours')
 const daysContainer = document.querySelector('#days')
 const nextYearContainer = document.querySelector('#year')
 
-const newYearTime  = new Date(`January 2021 00:00:00`)
+const newYearTime  = new Date(`December 26 2020 18:15`)
 
 nextYearContainer.textContent = "2021"
 
@@ -16,7 +16,7 @@ const updateCountdown = () => {
         contador.style.display="none"
 
         const texto = document.querySelector('#h1')
-        texto.innerText = "Deu certo"
+        texto.innerText = "teste"
 
     }
     const days = Math.floor(diferrence / 1000 / 60 / 60 / 24)
