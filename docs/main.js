@@ -4,7 +4,7 @@ const hoursContainer = document.querySelector('#hours')
 const daysContainer = document.querySelector('#days')
 const nextYearContainer = document.querySelector('#year')
 
-const newYearTime  = new Date(`December 26 2020 18:15`)
+const newYearTime  = new Date(`January 1 2021 00:00:00`)
 
 nextYearContainer.textContent = "2021"
 
